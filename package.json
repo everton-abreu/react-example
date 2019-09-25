@@ -4,7 +4,6 @@
   "description": "A simple react application that demostrates how react works.",
   "license": "MIT",
   "author": "Everton Jr. Abreu",
-  "homepage": "https://github.com/everton-abreu/react-example#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/everton-abreu/react-example.git"
