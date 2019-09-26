@@ -1,9 +1,7 @@
 import React from 'react';
 
-const App = () => (
-  <>
-    <h1>Ola Mundo</h1>
-  </>
-);
+import { HelloWorld } from './components';
 
-export default App;
+export default function App() {
+  return <HelloWorld />;
+}
