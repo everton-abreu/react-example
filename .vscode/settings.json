@@ -1,5 +1,8 @@
 {
   "liveServer.settings.root": "/build",
   "editor.formatOnSave": false,
-  "eslint.autoFixOnSave": true
+  "eslint.autoFixOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
