@@ -13,6 +13,7 @@
   },
   "main": "index.js",
   "scripts": {
+    "docker:start": "docker-compose up",
     "start": "npx react-scripts start",
     "build": "npx react-scripts build",
     "lint": "npx eslint ."
