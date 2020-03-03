@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  web:
+    container_name: web_app
+    build: .
+    command: npm start
+    ports:
+      - 4000:3000
+    volumes:
+      - .:/usr/app
+      - /usr/app/node_modules
